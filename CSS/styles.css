@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+    color: #194159;
+}
+
+
+/* ---- HEADER ---*/
+header{
+    padding: 10px;
+    background-color: #BFDBEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header #logoNombre{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 95px;
+    margin: 0 20px 0;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    padding: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+header ul li a:hover{
+    color: white;
+}
+
+
+/* ---- FOOTER ---- */
+footer{
+    background-color: #BFDBEB;
+    text-align: center;
+}
+
+#contenedorFooter{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+.seccionContenedor{
+    width: 30%;
+}
+.seccionContenedor h4{
+    margin-bottom: 5%;
+}
+.seccionContenedor a{
+    margin-bottom: 4%;
+}
+
+footer img{
+    width: 180px;
+    margin: 0 20px 0;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul a{
+    text-decoration: none;
+}
+
+footer ul a:hover{
+    color: white;
+}
+footer section a:hover{
+    color: white;
+}
+#creditoContenedor{
+    display: inline-block;
+    margin: 2%;
+}
+
+
+/* ----- INDEX ----- */
+#articleIndex{
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/fondoPapel.jpg');
+    background-attachment: fixed;
+    justify-content: space-between;
+ }
+ article #introduccionText{
+    background-color: #BFDBEB;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 5%;
+ }
+ article #introduccionText h2{
+    margin-bottom: 10%;
+ }
+  article #introduccionText a{
+    display: inline-block;
+    margin-top: 5%;
+    text-decoration: none;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0, 0, 0.1);
+ }
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#ingles{
+    background-image: url('../images/USAflag.png');
+}
+.idiomasInfo{
+    margin: 0 5% 0 60%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.idiomasInfo h3{
+    margin-bottom: 2%;
+}
+.idiomasInfo p{
+    margin: 2% 0 2% 0;
+}
+.idiomasInfo a{
+    display: inline-block;
+    margin-top: 5%;
+    text-decoration: none;
+    background-color: #BFDBEB;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#frances{
+    background-image: url('../images/Franceflag.png');
+}
+#aleman{
+    background-image: url('../images/Germanyflag.png');
+}
+
+/* ----- OFERTA EDUCATIVA --------- */
+#ofertaEducativa{
+    padding: 5%;
+    background-image: url('../images/fondoPapel.jpg');
+    background-attachment: fixed;
+}
+#ofertaEducativa #contenidoOferta section{
+    margin: 5% 0 5%;
+}
+#inicioOferta{
+    text-align: center;
+}
+#ofertaEducativa a{
+   display: inline-block;
+    margin-top: 5%;
+    text-decoration: none;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#finOferta{
+    text-align: center;
+}
+#contenidoOferta{
+    padding: 5%;
+    background-color: #BFDBEB;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* ------------ SUCURSALES ------------ */
+#sucursalesBody{
+    background-image: url('../images/fondoPapel.jpg');
+    background-attachment: fixed;
+}
+
+#contenidoSucursales{
+    background-color: #BFDBEB;
+    margin: 10%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#sucursalesIntro{
+    padding: 2%;
+}
+#sucursalesIntro h2{
+    padding: 3%;
+}
+
+#ubicaciones section{
+    margin: 10% 0 5%;
+}
+#ubicaciones section h3{
+    margin-top: 3%;
+}
+#sucursalesFin a{
+    display: inline-block;
+    margin-top: 5%;
+    text-decoration: none;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0, 0, 0.1);
+ }
+
+/* ------ FOMULARIO DE REGISTRO ----------- */
+
+#contenidoFormularioRegistro{
+    flex-direction: column;
+    background-color: #BFDBEB;
+    margin: 10%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#contenidoFormularioRegistro h2{
+    margin-bottom: 2%;
+}
+#contenidoFormularioRegistro p{
+    margin-bottom: 5%;
+}
+#formulario label{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+#registroBody{
+    background-image: url('../images/fondoPapel.jpg');
+    background-attachment: fixed;
+}
+
+/* ---------- FORMULARIO CONTACTO ------- */
+
+#contenidoFormularioContacto{
+    flex-direction: column;
+    background-color: #BFDBEB;
+    margin: 10%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#contenidoFormularioContacto section{
+    margin-bottom: 5%;
+}
+#contactoBody{
+    background-image: url('../images/fondoPapel.jpg');
+    background-attachment: fixed;
+}
+
